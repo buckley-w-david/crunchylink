@@ -11,7 +11,7 @@ homepage = "https://github.com/buckley-w-david/crunchylink"
 
 [tool.poetry.dependencies]
 python = "^3.6"
-crunchy-api = "^0.2.0"
+crunchyroll = { git = "https://github.com/buckley-w-david/python-crunchyroll" }
 click = "^6.7"
 
 [tool.poetry.dev-dependencies]
